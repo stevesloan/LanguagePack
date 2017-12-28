@@ -5,8 +5,10 @@
      "defaultDictionaryLocale" : the ID of the keyboard's (ISO) locale, e.g., "en", "iw", "ar", "ru", etc. The dictionary should declare the same locale. 
      "id" : UUID for this keyboard. Obtain from here: http://www.famkruithof.net/uuid/uuidgen
      "iconResId" : a reference to a drawable which can be used to show a flag in the notification bar.
-     "layoutResId" : a reference to a keyboard layout XML. See res/xml/qwerty.xml
+     "layoutResId" : a reference to a keyboard layout XML. See res/sinhalese_xl.xml
      -->
-	<Keyboard nameResId="@string/keyboard_name" iconResId="change_me" layoutResId="@xml/qwerty" 
-	    id="01b75090-eac4-11e7-8f1a-0800200c9a66" defaultDictionaryLocale="si" description="Sinhalese" index="1"/>
+	<Keyboard nameResId="@string/sinhalese_xl" iconResId="change_me" layoutResId="@xml/sinhalesexl"
+	    id="01b75090-eac4-11e7-8f1a-0800200c9a66" defaultDictionaryLocale="si" description="Sinhalese Extra Large" index="1"/>
+	<Keyboard nameResId="@string/wijesekara" iconResId="change_me" layoutResId="@xml/wijesekara"
+		id="68de1510-eb2d-11e7-8f1a-0800200c9a66" defaultDictionaryLocale="si" description="Sinhalese Standard Wijesekara Layout" index="2"/>
 </Keyboards>

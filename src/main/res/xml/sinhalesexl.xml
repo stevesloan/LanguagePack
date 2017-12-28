@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="9.1%p" android:keyHeight="10sp"><!-- "android:keyWidth" specify the default width of a key. In this example, 10% of parent (the whole keyboard) -->
+
+    <Row>
+        <!-- Key attributes:
+         "android:codes" : a comma separated unicode values of the keys. If you specify more than one code, then the other codes are accessible via multi-tap.
+         "android:popupCharacters" : characters to show on long-press popup keyboard
+         "android:keyLabel" : the text to show on the key. If this attribute is missing, the first code in "android:codes" will be used.
+         "android:horizontalGap" : gap to add to the left of this key.
+         "android:isModifier" : true/false (default is false) whether this key is a modifier key. Means it will be rendered with a differnt background (shift, delete are example of modifier key)
+         "android:isRepeatable" : true/false (default is false) whether this key repeats printing on long press (like the backspace). Setting this to true will disable the long-press (android:popupCharacters) functionality
+         "android:keyWidth" : specify the width of this key
+         -->
+        <Key android:codes="ු" android:popupCharacters="1" android:keyEdgeFlags="left"/>
+        <Key android:codes="අ" android:popupCharacters="2"/>
+        <Key android:codes="ැ" android:popupCharacters="3"/>
+        <Key android:codes="ර" android:popupCharacters="4"/>
+        <Key android:codes="එ" android:popupCharacters="5"/>
+        <Key android:codes="හ" android:popupCharacters="6"/>
+        <Key android:codes="ම" android:popupCharacters="7"/>
+        <Key android:codes="ස" android:popupCharacters="8"/>
+        <Key android:codes="ද" android:popupCharacters="9"/>
+        <Key android:codes="ද" android:popupCharacters="0"/>
+        <Key android:codes="ච" android:popupCharacters="" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="ූ" android:keyEdgeFlags="left"/>
+        <Key android:codes="උ" />
+        <Key android:codes="ෑ" />
+        <Key android:codes="ඍ" />
+        <Key android:codes="ඔ" />
+        <Key android:codes="ශ" />
+        <Key android:codes="ඹ" />
+        <Key android:codes="ෂ" />
+        <Key android:codes="ධ" />
+        <Key android:codes="ඡ" />
+        <Key android:codes="ඥ" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row android:keyWidth="10%p">
+        <Key android:codes="්" android:keyEdgeFlags="left"/>
+        <Key android:codes="ි" />
+        <Key android:codes="ා" />
+        <Key android:codes="ෙ" />
+        <Key android:codes="ට" />
+        <Key android:codes="ය" />
+        <Key android:codes="ව" />
+        <Key android:codes="න" />
+        <Key android:codes="ක" />
+        <Key android:codes="ත" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row android:keyWidth="10%p">
+        <Key android:codes="ෟ"  android:keyEdgeFlags="left"/>
+        <Key android:codes="ී" />
+        <Key android:codes="ෘ" />
+        <Key android:codes="ෆ" />
+        <Key android:codes="ඨ" />
+        <Key android:codes="ඳ" />
+        <Key android:codes="ඦ" />
+        <Key android:codes="ණ" />
+        <Key android:codes="ඛ" />
+        <Key android:codes="ථ"  android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row android:keyWidth="11.2%p">
+
+        <Key android:codes="ං" android:keyEdgeFlags="left"/>
+        <Key android:codes="ජ" />
+        <Key android:codes="ඩ" />
+        <Key android:codes="ඉ" />
+        <Key android:codes="බ" />
+        <Key android:codes="ප" />
+        <Key android:codes="ල" />
+        <Key android:codes="ග" />
+        <Key android:codes="ඤ" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row android:keyWidth="10%p">
+        <Key android:codes="ඃ" android:keyEdgeFlags="left"/>
+        <Key android:codes="ඣ" />
+        <Key android:codes="ඪ" />
+        <Key android:codes="ඊ" />
+        <Key android:codes="භ" />
+        <Key android:codes="ඵ" />
+        <Key android:codes="ළ" />
+        <Key android:codes="ඝ" />
+        <Key android:codes="ඥ" />
+        <Key  android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true"/>
+    </Row>
+</Keyboard>
+    
